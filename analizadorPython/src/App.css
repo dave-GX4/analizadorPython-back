@@ -1,0 +1,66 @@
+.app-container {
+  padding: 24px;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #2d3a4a;
+  margin-bottom: 12px;
+}
+
+textarea {
+  width: 100%;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  margin: 8px 0;
+  background: #fff;
+  resize: vertical;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-right: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #125ea2;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #bdbdbd;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+th {
+  background: #e3eaf2;
+}
+
+tr:nth-child(even) {
+  background: #f3f6fa;
+}
